@@ -4,13 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!---<script src="https://kit.fontawesome.com/7e83172e26.js" crossorigin="anonymous"></script>-->
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Fancy Trivia</title>
 </head>
 <body>
-    
+    <h1>Fancy Trivia</h1>
 
+    <div class="instructions">
+        <p>The time starts after you select the answer to the first question.</p>
+            <p> Answer as many questions as you can before the time runs outs.</p>
+                <p>You have 30 seconds to complete each question</p>
+    </div>
+    <div class="question-container" id="question-container">
+        <div class="quiz-question">
+            <h2 id="question-text">Question Text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a-text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b-text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c-text">Answer</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d-text">Answer</label>
+                </li>
+            </ul>
+      
+        </div>
+    </div>
+    <button data-type="submit" class="btb btn--blue">Submit Answer</button>
+    <div class="timer">
+
+    </div>
+    
+    <div class="score-tally">
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="wrong">Wrong Answers <span id="swrong">0</span></p>
+        <p class="attempted">Total Questions Attempted <span id="attempted">0</span></p>
+    </div>
+
+    <div class="feedback-message">
+
+    </div>
 
 
     <script src="assets/js/script.js"></script>
