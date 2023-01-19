@@ -61,7 +61,7 @@ body{
 
 ul{
     list-style-type: none;
-    padding: 10;
+    padding: 5;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -69,5 +69,5 @@ ul{
 }
 
 ul li{
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
 }

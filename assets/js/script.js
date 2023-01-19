@@ -1,5 +1,5 @@
 
-var questions = [
+const questions = [
     {
         question: "How many players are in a cricket team?",
         a: "8",
@@ -120,4 +120,53 @@ var questions = [
         d: "Physics",
         correct: "a",
     },
-]
+];
+
+/**
+ * const quiz = document.getElementById('quiz')
+const answer = document.querySelectorAll('.answer');
+const question = document.getElementById('question-text');
+const a_text = document.getElementById('a_text');
+const b_text = document.getElementById('b_text');
+const c_text = document.getElementById('c_text');
+const d_text = document.getElementById('d_text');
+const submitBtn = document.getElementById('submit');
+
+let score = 0;
+let currentQuestion = 0;
+
+function startQuiz() {
+
+}
+
+function deselectAnswers () {
+
+}
+
+function getSelected() {
+
+}*/
+
+function runGame() {
+
+}
+
+function checkAnswer() {
+
+}
+
+function incrementCorrectAnswer() {
+
+}
+
+function incrementWrongAnswer() {
+    
+}
+
+function incrementAttempted() {
+    
+}
+
+function displayNextQuestion() {
+    
+}
