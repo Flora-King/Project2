@@ -9,10 +9,10 @@
     <title>Fancy Trivia</title>
 </head>
 <body>
-    <h1>Fancy Trivia</h1>
+    <h1 class="heading">Fancy Trivia</h1>
 
     <div class="instructions">
-        <p>The time starts after you select the answer to the first question.</p>
+        <p>Time starts after you select the answer to the first question.</p>
             <p> Answer as many questions as you can before the time runs outs.</p>
                 <p>You have 30 seconds to complete each question</p>
     </div>
@@ -42,15 +42,19 @@
             </ul>
       
         </div>
+        <br>
+        <button data-type="submit" class="btb btn--blue">Submit Answer</button>
     </div>
-    <button data-type="submit" class="btb btn--blue">Submit Answer</button>
+
     <div class="timer">
 
     </div>
     
     <div class="score-tally">
         <p class="scores">Correct Answers <span id="score">0</span></p>
+
         <p class="wrong">Wrong Answers <span id="swrong">0</span></p>
+
         <p class="attempted">Total Questions Attempted <span id="attempted">0</span></p>
     </div>
 
