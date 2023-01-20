@@ -151,6 +151,10 @@ function runGame() {
 
 }
 
+function displayQuestion() {
+    
+}
+
 function checkAnswer() {
 
 }
