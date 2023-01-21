@@ -145,7 +145,7 @@ function deselectAnswers () {
 
 function getSelected() {
 
-}*/
+}
 
 function runGame() {
 
@@ -173,7 +173,7 @@ function incrementAttempted() {
 
 function displayNextQuestion() {
     
-}
+}*/
 
 var x = document.getElementById('login');
 var y = document.getElementById('register');

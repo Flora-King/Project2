@@ -4,55 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---<fontawesome script -->
     <script src="https://kit.fontawesome.com/7e83172e26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/CSS/style1.css">
-
     <title>Fancy Trivia</title>
 </head>
 <body>
-    <div class="home-container">
-        <div id="home" class="flex-center flex-column">
-            <h1 class="heading">Fancy Trivia</h1>
-            <p>Welcome to Fancy Quiz.</p>
+    <div class="hero-image">
+        <div class="home-container">
+            <div id="home" class="flex-center flex-column">
+                <h1 class="heading">Fancy Trivia</h1>
+                <p>Welcome to Fancy Quiz.</p>
+            
+                <h2>Quiz Rules</h2>
+                <p><i class="fa-regular fa-hand-point-right"></i> Time starts after you select the answer to the first question.</p>
+                <p><i class="fa-regular fa-hand-point-right"></i> Answer as many questions as you can before the time runs outs.</p>
+                <p><i class="fa-regular fa-hand-point-right"></i> You have 30 seconds to complete each question</p>
         
-            <h2>Quiz Rules</h2>
-            <p><i class="fa-regular fa-hand-point-right"></i> Time starts after you select the answer to the first question.</p>
-            <p><i class="fa-regular fa-hand-point-right"></i> Answer as many questions as you can before the time runs outs.</p>
-            <p><i class="fa-regular fa-hand-point-right"></i> You have 30 seconds to complete each question</p>
-        
-            <!--<a class="btn" href="/workspace/Project2/homepage.html">Login to Play</a>-->
-
-        </div>
-        <div class="login-box flex-center flex-column">
+    
+            </div>
 
         <div class="login-form">
-            <div class="button-box">
+            <div class="login-submit-box">
                 <div id="btn"></div>
-                    <button type="button" class="login-btn" onclick="login()">Log In</button>
-                    <button type="button" class="register-btn" onclick="register">Register</button>
-                </div>
-                <form id="login" class="form-entry">
-                    <input type="text" class="input-field" placeholder="Username" required>
-                    <input type="text" class="input-field" placeholder="Password" required>
-                    <input type="checkbox" class="check-box"><span>Remember Password</span>
-                    <a class="btn" href="/workspace/Project2/homepage.html">Login to Play</a>
-                </form>
-                <form id="register" class="form-entry">
-
-                    <input type="text" class="input-field" placeholder="Username" required>
-                    <input type="email" class="input-field" placeholder="Email" required>
-                    <input type="text" class="input-field" placeholder="Password" required>
-                    <input type="checkbox" class="check-box"><span>Agree to terms and conditions</span>
-                    <a class="btn" href="/workspace/Project2/homepage.html">Register</a>
-                </form>
-                
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
-            
+            <form id="login" class="form-entry">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"> <span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="form-entry">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email Address" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"> <span>Agree to Terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
         </div>
+
+
+
     </div>
 
-    
+
+
+
 
 
     <script src="assets/js/script.js"></script>
