@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     overflow: hidden;
     margin: 0;
@@ -33,11 +33,14 @@ body{
     margin-right: auto;
     max-width: 800px;
     max-height: 450px;
+    font-size: small;
 
 }
 
 .question-container h2{
     color: #000;
+    font-size: 2rem;
+    padding-bottom: 10px;
 }
 
 ul{
@@ -47,7 +50,7 @@ ul{
 
 ul li{
     margin: 0.8rem 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 ul li label{
    cursor: pointer;
