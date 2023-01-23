@@ -180,7 +180,7 @@ submitBtn.addEventListener("click", () => {
         } else {
             quiz.innerHTML =`
             <h2> You answered ${score} out of ${questionsData.length} questions correctly.</h2>
-            <button onclick="location.reload()">Reload</button>
+            <button onclick="location.reload()">Reload Quiz</button>
             `;
         }
     }

@@ -55,7 +55,7 @@ ul li label{
    cursor: pointer;
 }
 
-.submit-btn{
+button{
     /*background-color: #03cae4;*/
     background-color: #bc3461;
     color: #fff;
