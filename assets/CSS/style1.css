@@ -7,15 +7,16 @@
 
 *{
     box-sizing: border-box;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    color: #000;
+    
 }
 
 h1 {
-    font-size: 4rem;
     color: #ff105f;
+    font-size: 4rem;
     margin-bottom: 3rem;
 
 }
@@ -85,7 +86,7 @@ i {
     border: 0;
     outline: none;
     position: relative;
-    margin: 0px 5px 10px 10px;
+    margin: 0 5px 10px 10px;
     
 }
 
@@ -97,7 +98,7 @@ i {
     height: 100%;
     background: linear-gradient(to right, #ff105f, #ffad06);
     border-radius: 30px;
-    transform: .5s;
+    transform: 0.5s;
 }
 
 .form-entry {

@@ -21,31 +21,28 @@
                 <p><i class="fa-regular fa-hand-point-right"></i> You have 30 seconds to complete each question</p>
             </div>
 
-        <div class="login-form">
-            <div class="login-submit-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            <div class="login-form">
+                <div class="login-submit-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="form-entry" action="page2.html">
+                    <input type="email" class="input-field" placeholder="Username" required>
+                    <input type="text" class="input-field" placeholder="Password" required>
+                    <input type="checkbox" class="check-box"> <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="form-entry" action="page2.html">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="email" class="input-field" placeholder="Email Address" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"> <span>Agree to Terms and conditions</span>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
             </div>
-            <form id="login" class="form-entry" action="page2.html">
-                <input type="email" class="input-field" placeholder="Username" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <input type="checkbox" class="check-box"> <span>Remember Password</span>
-                <button type="submit" class="submit-btn">Log In</button>
-            </form>
-            <form id="register" class="form-entry" action="page2.html">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="email" class="input-field" placeholder="Email Address" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
-                <input type="checkbox" class="check-box"> <span>Agree to Terms and conditions</span>
-                <button type="submit" class="submit-btn">Submit</button>
-            </form>
         </div>
     </div>
-
-
-
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>
