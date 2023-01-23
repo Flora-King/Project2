@@ -124,10 +124,10 @@ var questionsData = [
 var quiz = document.getElementById("quiz");
 var answerEls = document.querySelectorAll(".answer");
 var questionEl = document.getElementById("question-text");
-var a_text = document.getElementById("a_text");
-var b_text = document.getElementById("b_text");
-var c_text = document.getElementById("c_text");
-var d_text = document.getElementById("d_text");
+var a_text = document.getElementById("a-text");
+var b_text = document.getElementById("b-text");
+var c_text = document.getElementById("c-text");
+var d_text = document.getElementById("d-text");
 var submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0;
@@ -179,7 +179,7 @@ submitBtn.addEventListener("click", () => {
         loadQuiz();
         } else {
             quiz.innerHTML =`
-            <h2> You answered $(score)/${questionsData.length} questions correctly.</h2>
+            <h2> You answered ${score} out of ${questionsData.length} questions correctly.</h2>
             <button onclick="location.reload()">Reload</button>
             `;
         }
