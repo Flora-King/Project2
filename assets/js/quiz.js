@@ -130,6 +130,11 @@ var c_text = document.getElementById("c-text");
 var d_text = document.getElementById("d-text");
 var submitBtn = document.getElementById("submit");
 
+/**
+ * var correctAnswer = parseInt(document.getElementById("score").innerText);
+var wrongAnswer = parseInt(document.getElementById("wrong").innerText);
+var totalAttempted = parseInt(document.getElementById("attempted").innerText);*/
+
 let currentQuiz = 0;
 let score = 0;
 
@@ -185,3 +190,12 @@ submitBtn.addEventListener("click", () => {
         }
     }
 });
+
+/**
+ * function calculateCorrectAnswer() {
+    if(answer === questionsData[currentQuiz].correct) {
+        return correctAnswer;
+    } else {
+        return wrongAnswer;
+    }
+};*/
