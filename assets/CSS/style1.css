@@ -161,6 +161,42 @@ span {
     left: 450px;
 }
 
+@media (max-width: 320px) {
+    .login-form {
+        width: 100%;
+        justify-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    img {
+        justify-items: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .login-form {
+        width: 100%;
+        justify-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    img {
+        justify-items: center;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
 /*.home-container {
     width: 100vw;
     height: 100vh;
