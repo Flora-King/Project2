@@ -26,7 +26,7 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 65%;
-    height: 40%;
+    height: 36%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -56,15 +56,13 @@ button{
     background-color: #bc3461;
     color: #fff;
     border: none;
-    display: block;
     width: 100%;
+    display: block;
     cursor: pointer;
     font-size: 1.1rem;
     font-family: inherit;
     padding: 2rem;
-    position: absolute;
-
-
+    position: relative;
 }
 
 .submit-btn:hover{
@@ -189,3 +187,20 @@ p {
         bottom: 10px;
     }
 }
+
+/*@media (min-width: 1440px) {
+    .question-container {
+        width: 90%;
+        height: 42%;
+    }
+    button{
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 2rem;
+    }
+
+    p {
+        padding: 0.5rem;
+        bottom: 10px;
+    }
+}*/
