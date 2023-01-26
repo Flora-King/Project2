@@ -44,7 +44,7 @@ var questionsData = [
         a: "Elon Musk",
         b: "Tim Cook",
         c: "Mark Zuckerberg",
-        d: "Andy Jessy",
+        d: "Andy Jassy",
         correct: "d",
     },
     {
