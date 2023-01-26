@@ -69,6 +69,17 @@ button{
     background-color: #e498b2;
 }
 
+.btn-finish {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
 /*.submit-btn:focus{
 outline: none;
 background-color: #1080ff;
