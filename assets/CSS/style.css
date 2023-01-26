@@ -52,7 +52,7 @@ ul li label{
    cursor: pointer;
 }
 
-button{
+.submit-btn{
     background-color: #bc3461;
     color: #fff;
     border: none;
@@ -69,21 +69,37 @@ button{
     background-color: #e498b2;
 }
 
-.btn-finish {
+.btn-finish{
     margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
+    /*smargin-left: 50rem;*/
+    width: 180px;
+    /*display:block;*/
+    border-radius:30px;
     text-decoration: none;
+    display: block;
+    /*justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    padding: 1.5rem;
+    position: relative;
 
 }
 
-/*.submit-btn:focus{
-outline: none;
-background-color: #1080ff;
-}*/
+.flex-center {
+
+    justify-content: center;
+    align-items: center;
+}
+    
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration:none;
+}
+
 
 h1 {
     color: #ff105f;
@@ -99,28 +115,6 @@ h2 {
     text-decoration: none;
     color: #ff105f;
 }
-/*.score-tally{
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-    padding: 25px;
-    float:inline-start;    
-    
-}
-.scores >*{
-    color: #008000;
-    font-weight: bold;
-}
-
-.wrong >*{
-    color: #ff0000;
-    font-weight: bold;
-}
-
-.attempted >*{
-    font-weight: bold;
-    color: #fff;
-}*/
 
 /* quiz page image */
 .hero-image {
@@ -145,17 +139,16 @@ p {
 @media (max-width: 320px) {
     .question-container {
         width: 90%;
-        height: 42%;
+        height:auto;
     }
-    button{
+    .submit-btn{
         width: 100%;
         font-size: 1.1rem;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     p {
-        padding: 0.2rem;
-        font-size: 1.2rem;
+        padding: 0.5rem;
     }
 
     h1 {
@@ -164,17 +157,27 @@ p {
         margin-bottom: 2rem;
     
     }
+    .btn-finish{
+        width: 50%;
+        font-size: 1.1rem;
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 375px) {
     .question-container {
         width: 90%;
-        height: 42%;
+        height:auto;
     }
-    button{
+    .submit-btn{
         width: 100%;
         font-size: 1.1rem;
-        padding: 2rem;
+        padding: 1rem;
+    }
+    .btn-finish{
+        width: 50%;
+        font-size: 1.1rem;
+        padding: 1rem;
     }
 
     p {
@@ -185,12 +188,17 @@ p {
 @media (max-width: 425px) {
     .question-container {
         width: 90%;
-        height: 42%;
+        height:auto;
     }
-    button{
+    .submit-btn{
         width: 100%;
         font-size: 1.1rem;
-        padding: 2rem;
+        padding: 1rem;
+    }
+    .btn-finish{
+        width: 50%;
+        font-size: 1.1rem;
+        padding: 1rem;
     }
 
     p {
@@ -198,20 +206,3 @@ p {
         bottom: 10px;
     }
 }
-
-/*@media (min-width: 1440px) {
-    .question-container {
-        width: 90%;
-        height: 42%;
-    }
-    button{
-        width: 100%;
-        font-size: 1.1rem;
-        padding: 2rem;
-    }
-
-    p {
-        padding: 0.5rem;
-        bottom: 10px;
-    }
-}*/
