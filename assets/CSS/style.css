@@ -69,16 +69,43 @@ ul li label{
     background-color: #e498b2;
 }
 
-.btn-finish{
-    margin-top: 30px;
-    margin-left: 50rem;
+/*.btn-finish{
+    /*margin-top: 30px;
+    margin-left: 50rem;*/
+
+    /*background-color: aqua;
+    border: none;
+    color: #ff105f;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    width: 100%;*
+
+    margin: auto;
     width: 180px;
     border-radius:30px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     padding: 1.5rem;
     position: relative;
 
+}*/
+
+.btn-finish {
+    margin:auto;
+    color: #fff;
+    border: none;
+    width: 280px;
+    display: flex;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 2rem;
+    text-align: center;
 }
 
 .flex-center {
@@ -155,11 +182,10 @@ p {
     
     }
     .btn-finish{
-        width: 100%;
-        margin-left: 50rem;
-        font-size: 1.1rem;
-        padding: 1rem;
-        position: relative;
+        margin:auto;
+        width: 280px;
+        display: block;
+
     }
 }
 
