@@ -86,8 +86,8 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 The Fancy Trivia website was deployed in GitHub under the repository name Project2. 
 
-* I created a github project, and followed provided instructions to apply the Code institute template 
-* Once the project finished rendering, i proceeded to write code for PROJECTS2 in gitpod 
+* I created a github project, called it PROJECTS2 , and followed provided instructions to apply the Code institute template 
+* Once the project finished rendering, i proceeded to write code in gitpod 
 
 To publish/deploy my project, i followed these steps:
 1 navigate to github

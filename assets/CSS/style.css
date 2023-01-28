@@ -71,15 +71,11 @@ ul li label{
 
 .btn-finish{
     margin-top: 30px;
-    /*smargin-left: 50rem;*/
+    margin-left: 50rem;
     width: 180px;
-    /*display:block;*/
     border-radius:30px;
     text-decoration: none;
     display: block;
-    /*justify-content: center;
-    align-items: center;
-    flex-direction: column;*/
     padding: 1.5rem;
     position: relative;
 
@@ -125,6 +121,7 @@ h2 {
     background-size: cover;
     position: absolute;
     overflow: scroll;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -158,9 +155,11 @@ p {
     
     }
     .btn-finish{
-        width: 50%;
+        width: 100%;
+        margin-left: 50rem;
         font-size: 1.1rem;
         padding: 1rem;
+        position: relative;
     }
 }
 
@@ -175,9 +174,11 @@ p {
         padding: 1rem;
     }
     .btn-finish{
-        width: 50%;
+        width: 100%;
+        margin-left: 50rem;
         font-size: 1.1rem;
         padding: 1rem;
+        position: relative;
     }
 
     p {
@@ -196,9 +197,11 @@ p {
         padding: 1rem;
     }
     .btn-finish{
-        width: 50%;
+        width: 100%;
+        margin-left: 50rem;
         font-size: 1.1rem;
         padding: 1rem;
+        position: relative;
     }
 
     p {
