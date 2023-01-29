@@ -71,7 +71,7 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 
 * JAVASCRIPT
     * The javascript code remains without errors after several adjustments carried out during solution build process. 
-    * Plus i had to add a JS hint comment /*jshint esversion: 6 */ at the top of the js code to eliminate the 
+    * Plus i had to add a JS hint comment /*jshint esversion: 6 */ at the top of the js code to eliminate the XXXXXXX
 
 ![JSHint_Validation](https://user-images.githubusercontent.com/106548101/215343083-c9e3d59c-cf80-4400-b567-a558bbed1559.png)
 
