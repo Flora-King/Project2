@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 
 var questionsData = [
     {
@@ -154,7 +155,7 @@ function deselectAnswers() {
         answerEl.checked = false;
 
     });
-};
+}
 
 function getSelected() {
 
