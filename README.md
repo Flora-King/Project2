@@ -2,7 +2,7 @@
 
 The Fancy Trivia website is a simple and fun website aimed at users who want to test their general knowledge.
 
-This website provides an opportunity for users to test as ell as challenge their general knowlege while having fun  at the same time.
+This website provides an opportunity for users to test as well as challenge their general knowlege while having fun at the same time.
 
 The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/Portifolio-Project-2/
 
@@ -13,24 +13,27 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 
 ## Navigation
 
-* This website has two pages both linked to eachother via the 'Start Quiz' button on the home page and the 'Finish' button on the quiz page.
-
-![Navigation-Bar](https://user-images.githubusercontent.com/106548101/176719677-c2ffbe02-1f98-4eda-88a4-8c32b07357c4.png)
+* The Fancy Trivia website has two pages both linked to eachother via the 'Start Quiz' button on the home page and the 'Finish' button on the quiz page.
 
 ## Home Page
 
-* The Home page has a hero image with cover text [statement of intent for TOP service] superimposed on top.
-* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer] or the can use the navigation links  links set out in the  navigation bar.
-* I have also included two buttons 'FIND OUT MORE' and 'CONTACT US' for extra ease of use.
+* The Home page is a simple layout with a welcome message to the user
+* The user is directed to start the quiz by clicking on the 'Start Quiz' button
 
 ![Home_Page](https://user-images.githubusercontent.com/106548101/215344102-f7883865-901b-4365-963e-8fe43e15210d.png)
 
 ## Quiz Page 
 
-* On this page are xxxxxxxxxxx
-* Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
+* The quiz page [page 2] displays the quiz rules.
+* The quiz page [page 2] displays the list of quiz questions which are loaded progressively aflter the user selects and submits an answer using the 'Submit 
+  Answer' button.
+* At the end of the quiz, the user gets feedback on how they have perfomed.
+* Also at the end of the quix, the user has an option to reload the quiz via the 'Reload Quiz' button or finish playing via 'Finish' button.
 
 ![Quiz_page](https://user-images.githubusercontent.com/106548101/215344001-7cf7d399-45a3-47fa-946a-66719ecacbe4.png)
+
+## Features left to Implement
+* When there is time, I would like to add a login/Register page plus add a function to randomise the quiz questions loading
 
 # Testing
 
@@ -39,23 +42,20 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 * To confirm whether this website works in Chrome and Firefox (mobile and desktop versions).
 * To confirm the responsiveness of this website on all screen sizes using chrome dev tools.
 * To confirm that other users [other than myself] can read and understand the text throughout the website
-* To confirm that the enquiry form works, indicates required text and the submit button works.
 
 ## Tests carried out
 
 ### Functional Testing
 
-* Tested all links ensuring they are working as expected and make sure there are no broken links. 
-* This included the navigation links [Home, Services, Contact Us]
+* Tested all links ensuring they are working as expected and made sure there are no broken links. 
 
 ### Usability Testing
 
-* Tested the site Navigation to ensure that the buttons or Links to different pages are easily visible and consistent on all webpages
-* Tested the Content:
+* Tested the site navigation to ensure that the buttons to different pages are easily visible and consistent on all webpages
 * Tested all content to ensure it is legible and without spelling or grammatical errors.
-* Checked all images to ensure they all contain an “alt” text
+* Checked XXXXXXXX
 
-### Validator Testing
+# Validation Services
 
 * HTML
     * The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
@@ -87,9 +87,6 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 
 * I encountered issues while building the services section layout. The service types were displaying as "two columns side-by-side and two rows" structure that I needed. I solved this by created an outer container to house all service types plus a container for each service type
 
-#### Unsolved
-
-* All issues have now been resolved. 
 
 # Deployment 
 
