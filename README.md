@@ -53,7 +53,7 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 
 * I got several warnings advising that a lot of my javascript code was only available in ES6 (use 'esversion:6) or Mozilla JS extensions (use moz)", when i 
    added the JS code to JSHint for valitation.
-   * To eliminate the warnings, i added the following JS hint comment '/*jshint esversion: 6 */' at the top of the javascipt code
+   * To eliminate the warnings, i added the following comment '/*jshint esversion: 6 */' at the top of the javascipt code
 
 ### Unsolved bugs
 * There are no unsolved bugs
@@ -90,18 +90,17 @@ To publish/deploy my project, i followed these steps:
 * Navigate to settings
 * Open Github pages section
 * Selected the [main] branch under source
-* All done
-* Click on the link to confirm website loads successfully
+* Save changes.
+* Click on the generated page link to confirm website loads successfully
 
 The live website can be found here [Fancy_Trivia website]: https://flora-king.github.io/Portifolio-Project-2/
 
 # Credits
-* Code Institute - mentor support was very helpful.
-* Code Institure - Tutor support was very helpful.
+* Code Institute - my Mentor support was so helpful.
 * Reviewed and studied examples as well as documentation on W3schools website.
 * Reviewed and studied examples on stack overflow website for code examples as well as solution issues/errors encountered similar to ones i was 
   encounterings.
-* Watched/Studied various coding tutorials on www.youtube.com channels:- E.g.s Coding with Nick; and used their code as an example to build my own code
+* Studied various coding tutorials on www.youtube.com:- such as 'Coding with Nick' and utilised their code as an example to build my own code.
 * The background images in this website were downloaded free from Pexels website.
 * Utilised Google fonts as well as Chrome Developer tools to test and view website responsiveness.
 * Used Lighthouse [from google's developer tools] to assess and generate accessibility reports mentioned above.
