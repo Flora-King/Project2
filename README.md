@@ -33,27 +33,18 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 ![Quiz_page](https://user-images.githubusercontent.com/106548101/215344001-7cf7d399-45a3-47fa-946a-66719ecacbe4.png)
 
 ## Features left to Implement
-* When there is time, I would like to add a login/Register page plus add a function to randomise the quiz questions loading
+* When there is time, I would add more questions and a function to randomise the quiz questions loading a new set everytime the user hits the Reload quiz 
+  button
 
 # Testing
 
-## General test required
+* Tested website perfomance and usability in different browsers i.e. Chrome, firefox and safari. 
+* Tested website responsiveness on different device-sizes i.e. mobile, tablet and desktop.
+* Tested the site navigation to ensure that the buttons to different pages are visible, consistent and in working order on all pages.
+* Tested all website content to ensure it is legible and without spelling or grammatical errors.
+* I used lighthouse analysis report [on google developer tools] to validate that accessibility and performance are good for both pages
 
-* To confirm whether this website works in Chrome and Firefox (mobile and desktop versions).
-* To confirm the responsiveness of this website on all screen sizes using chrome dev tools.
-* To confirm that other users [other than myself] can read and understand the text throughout the website
-
-## Tests carried out
-
-### Functional Testing
-
-* Tested all links ensuring they are working as expected and made sure there are no broken links. 
-
-### Usability Testing
-
-* Tested the site navigation to ensure that the buttons to different pages are easily visible and consistent on all webpages
-* Tested all content to ensure it is legible and without spelling or grammatical errors.
-* Checked XXXXXXXX
+![ACCESSIBILITY](https://user-images.githubusercontent.com/106548101/215497827-89622a54-0e54-4847-9090-3345bc52c4f6.png)
 
 # Validation Services
 
@@ -74,19 +65,6 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
     * Plus i had to add a JS hint comment /*jshint esversion: 6 */ at the top of the js code to eliminate the XXXXXXX
 
 ![JSHint_Validation](https://user-images.githubusercontent.com/106548101/215343083-c9e3d59c-cf80-4400-b567-a558bbed1559.png)
-
-* Accessibility
- * I have validted that accessibility is good. My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website. XXXXXXXX
-
-![Accessibility Report](https://user-images.githubusercontent.com/106548101/178159136-7760498c-b203-4f28-ae2a-1302027937c4.PNG)
-
-### Bugs and Errors
-
-#### Solved
-* I encountered a few errors in HTML and CSS during the build phase. For example, I had created a button inside the anchor tag. After seeing the error from the validation report, i adjusted my code.
-
-* I encountered issues while building the services section layout. The service types were displaying as "two columns side-by-side and two rows" structure that I needed. I solved this by created an outer container to house all service types plus a container for each service type
-
 
 # Deployment 
 
@@ -111,7 +89,7 @@ The live website can be found here [Fancy_Trivia website]: https://flora-king.gi
 * Code Institure - Tutor support was very helpful.
 * Referenced and studied examples as well as documentation on W3schools website.
 * Referenced and studied examples on stack overflow website for code examples as well as solutions to similar issues/errors encountered.
-* Watched and studied various coding tutorials on www.youtube.com specifically these channels:- Easy tutorials, Coding Nepal, and Codding with Nick.
+* Watched and studied various coding tutorials on www.youtube.com specifically these channels:- Easy tutorials, Coding Nepal, and Coding with Nick.
 * The background images in this website were downloaded free from Pexels website.
 * Utilised Google fonts as well as Chrome Developer tools to test and view website responsiveness.
 * Used Lighthouse [from google's developer tools] to assess and generate accessibility reports mentioned above.
