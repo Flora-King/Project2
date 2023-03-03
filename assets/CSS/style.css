@@ -97,6 +97,10 @@ p {
     color: #fff;
 }
 
+#error p {
+    color: #000;
+}
+
 /*buttonscode start*/
 .submit-btn{
     background-color: #bc3461;
