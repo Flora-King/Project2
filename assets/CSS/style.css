@@ -76,12 +76,25 @@ h1 {
 
 }
 
+.heading {
+    top: 0;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
     text-decoration: none;
     color: #ff105f;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem; 
+    color: #fff;
 }
 
 /*buttonscode start*/
@@ -127,14 +140,12 @@ h2 {
     overflow: scroll;
     background-repeat: no-repeat;
 }
-
-p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem; 
-    color: #fff;
+img {
+    height: 4rem;
+    padding-right: 5px;
+    padding-top: 30px;
+    
 }
-
 
 /*media queries start*/
 
@@ -150,13 +161,14 @@ p {
     }
 
     p {
-        padding: 0.5rem;
+        padding: 0.1rem;
+        font-size:large;
     }
 
     h1 {
         top: 0;
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     
     }
     .btn-finish{
