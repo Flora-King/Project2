@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/*general code page*/
+/*general code start*/
 *root {
     background-color: white;
     font-size: 65%;
@@ -55,8 +55,9 @@ i {
     display: flex;
     flex-direction: column;
 }
+/*general end*/
 
-/*buttons code*/
+/*buttons start*/
 button{
     background-color: #bc3461;
     color: #fff;
@@ -80,6 +81,7 @@ a{
     display: block;
 
 }
+/*buttons end*/
 
 /* hero image */
 .hero-image {
