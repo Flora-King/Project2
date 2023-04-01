@@ -40,9 +40,9 @@ The live website can be found here [Fancy_Trivia]:https://flora-king.github.io/P
 * Tested website responsiveness on different device-sizes i.e. mobile, tablet and desktop.
 * Tested the site navigation to ensure all buttons are visible, with consistent design and in working order on all pages.
 * Tested all website content to ensure it is legible and without spelling or grammatical errors.
-* I used lighthouse analysis report [on google developer tools] to validate that accessibility and performance are good for both pages
+* I used lighthouse analysis report [on google developer tools] to validate that accessibility and performance are good for both pages as shown below
 
-![ACCESSIBILITY](https://user-images.githubusercontent.com/106548101/215497827-89622a54-0e54-4847-9090-3345bc52c4f6.png)
+<img width="1098" alt="Screenshot 2023-04-01 at 11 22 00" src="https://user-images.githubusercontent.com/106548101/229280572-47d4cbfd-0837-4921-b435-c8a055b8d95b.png">
 
 ## Bugs
 ### Solved bugs
